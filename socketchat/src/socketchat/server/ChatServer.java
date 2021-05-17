@@ -14,12 +14,6 @@ public class ChatServer {
 	private ServerSocket serverSock;
 	private final int port = 5001;
 
-//	private String readTextFromSocket(Socket sock) throws IOException {
-//		InputStreamReader is = new InputStreamReader(sock.getInputStream());
-//		char[] b = new char[1024];
-//		is.read(b);
-//		return new String(b);
-//	}	
 
 	public void setClient(Socket s, String name)
 	{

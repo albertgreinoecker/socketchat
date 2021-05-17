@@ -118,7 +118,7 @@ public class ChatClient extends Application {
 			sock.close();
 			//reader.close();
 			//writer.close();
-			
+			Platform.exit();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
